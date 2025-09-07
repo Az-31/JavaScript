@@ -32,9 +32,9 @@ while (more) {
     hasil = "salah masukin tag ituu";
   }
 
-  alert('Hello World!');
+  // alert('Hello World!');
 
-  // alert("Kamu memilih " + p + " dan komputer memilih " + c + "\n" + "Hasilnya adalah kamu " + hasil);
+  alert("Kamu memilih " + p + " dan komputer memilih " + c + "\n" + "Hasilnya adalah kamu " + hasil);
 
   more = confirm('more??');
 }
