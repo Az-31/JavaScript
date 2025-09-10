@@ -23,7 +23,7 @@ const p1 = document.getElementsByClassName('p1');
 p1[0].innerHTML = '<b>1. paragraf</b>';
 
 
-// document.querySelector -> element
+//! document.querySelector -> element
 const p4 = document.querySelector('#b p');
 p4.style.color = 'blue'; 
 
@@ -36,3 +36,6 @@ li3.style.color = 'red';
 const secB = document.getElementById('b');
 const pB = secB.querySelector('p');
 pB.style.backgroundColor = '#ffc626';
+
+//? 🔑 Jadi, kalau mau fleksibel & modern → pakai querySelector / querySelectorAll.
+//? getElementsByTagName masih dipakai, tapi agak “jadul” dan lebih ribet dibanding query selector.

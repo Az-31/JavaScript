@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Latihan DOM Lengkap</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+      }
+      .container {
+        width: 400px;
+        margin: 20px auto;
+      }
+      .card {
+        background: white;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        position: relative;
+      }
+      .nama {
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .telp {
+        color: gray;
+        cursor: pointer;
+      }
+      .close {
+        color: red;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+      a {
+        display: inline-block;
+        margin-top: 10px;
+        color: blue;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <span class="nama">Andi</span><br />
+        <span class="telp">08123</span>
+        <span class="close">×</span>
+      </div>
+      <div class="card">
+        <span class="nama">Budi</span><br />
+        <span class="telp">08234</span>
+        <span class="close">×</span>
+      </div>
+      <div class="card">
+        <span class="nama">Citra</span><br />
+        <span class="telp">08345</span>
+        <span class="close">×</span>
+      </div>
+      <button id="hitung">Hitung Card Aktif</button>
+      <br />
+      <a href="https://google.com" id="link">Ke Google</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

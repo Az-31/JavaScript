@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Latihan DOM Traversal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      padding: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 200px;
+      position: relative;
+    }
+    .close {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+      color: red;
+      font-weight: bold;
+    }
+    .nama {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .telp {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Latihan Traversal DOM</h1>
+  <div class="container">
+    <div class="card">
+      <span class="close">×</span>
+      <div class="nama">Andi</div>
+      <div class="telp">081234567</div>
+    </div>
+    <div class="card">
+      <span class="close">×</span>
+      <div class="nama">Budi</div>
+      <div class="telp">089876543</div>
+    </div>
+    <div class="card">
+      <span class="close">×</span>
+      <div class="nama">Citra</div>
+      <div class="telp">082233445</div>
+    </div>
+  </div>
+
+  <button id="hitung">Hitung Card Aktif</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
